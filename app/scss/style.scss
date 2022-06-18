@@ -41,6 +41,9 @@ li {
     justify-content: space-between;
     text-align: center;
     align-items: center;
+    &__logo{
+        
+    }
 }
 
 .header__logo {
@@ -62,7 +65,9 @@ li {
     line-height: 16px;
     font-weight: 500;
     color: black;
-
+    &:hover {
+        text-decoration: none;
+    }
 }
 
 .header__menu li+li {
@@ -94,7 +99,6 @@ li {
     font-size: 15px;
     line-height: 19px;
     font-weight: 400;
-    // max-width: 149px;
     max-height: 43px;
     margin-left: 47px;
 
@@ -105,15 +109,23 @@ li {
         text-decoration: none;
         border-bottom: 1px solid rgb(#88C558, .25);
         padding-bottom: 1px;
-        &+a{
+
+        &+a {
             margin-top: 4px;
         }
-        }
+    }
 
 }
 
+//end header
+
+//start slider
+
 .slider__inner {
+   
     position: relative;
+    z-index: 1;
+ 
 }
 
 .slider__image img {
@@ -122,9 +134,12 @@ li {
     height: 980px;
     width: 100%;
     object-fit: cover;
+    
+
+    
 }
 
-.slider__text {
+.slider__text{
     max-width: 1018px;
     color: #fff;
     position: absolute;
@@ -132,8 +147,14 @@ li {
     font-size: 64px;
     line-height: 70px;
     font-weight: 800;
-    z-index: 1;
+    z-index: 500 ;
     bottom: 100px;
-    left: 60px;
+    margin-left: 60px;
+
 
 }
+
+   
+
+
+
