@@ -41,9 +41,8 @@ li {
     justify-content: space-between;
     text-align: center;
     align-items: center;
-    &__logo{
-        
-    }
+
+    &__logo {}
 }
 
 .header__logo {
@@ -65,6 +64,7 @@ li {
     line-height: 16px;
     font-weight: 500;
     color: black;
+
     &:hover {
         text-decoration: none;
     }
@@ -122,10 +122,10 @@ li {
 //start slider
 
 .slider__inner {
-   
+
     position: relative;
     z-index: 1;
- 
+
 }
 
 .slider__image img {
@@ -134,12 +134,12 @@ li {
     height: 980px;
     width: 100%;
     object-fit: cover;
-    
 
-    
+
+
 }
 
-.slider__text{
+.slider__text {
     max-width: 1018px;
     color: #fff;
     position: absolute;
@@ -147,85 +147,143 @@ li {
     font-size: 64px;
     line-height: 70px;
     font-weight: 800;
-    z-index: 500 ;
+    z-index: 500;
     bottom: 100px;
     margin-left: 60px;
 
 
 }
 
-.slick-dots li{
-  
-    
+.slick-dots li {
+
+
     width: 24px;
     height: 3px;
     margin: 0px;
     background-color: white;
     opacity: 0.5;
     transition: all .3s;
-    &+li{
-    margin-left: 8px;
+
+    &+li {
+        margin-left: 8px;
     }
-    &.slick-active{
-    width: 50px;
-    opacity: 1;
-    
+
+    &.slick-active {
+        width: 50px;
+        opacity: 1;
+
     }
-}    
+}
+
 //end slider
 
 //start works
 
-.works{
+.works {
     margin-top: 180px;
     margin-bottom: 90px;
 }
-.container{
+
+.container {
     max-width: 1167px;
     margin: 0 auto;
 }
 
-.works__title{
+.works__title {
     font-family: 'Inter', sans-serif;
     font-size: 48px;
     line-height: 30px;
     font-weight: 700;
     color: #000;
-    margin-bottom: 65px;
-    
+
+
 }
 
-.works__items{
+.work__items {
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 
 }
-.works__item{
+
+.work__text {
     display: flex;
-  justify-content: space-between;
 }
-.work__info{
-  display: inline;
-  max-width: 439px;
-  margin-right: 185px;
+
+.work__number {
+    font-family: 'Inter', sans-serif;
+    font-size: 70px;
+    line-height: 77px;
+    font-weight: 100;
+    color: #00000026;
+    opacity: 15;
+    margin-right: 24px;
+    transform: rotate(2deg);
+
 
 }
-.work__title{
+
+
+
+.work__item {
+    width: 48%;
+    margin-top: 72px;
+    display: flex;
+    align-items: center;
+
+}
+
+.work__title {
     font-family: 'Inter', sans-serif;
     font-size: 28px;
     line-height: 30px;
     font-weight: 500;
     color: #000;
-   }
-   .work__text{
+}
+
+.work__text {
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     line-height: 26px;
     font-weight: 400;
     color: Grey;
-   }
+}
 
+.work__info {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 187px;
+}
 
+.work__size {
+    font-family: 'Inter', sans-serif;
+    font-size: 90px;
+    line-height: 99px;
+    font-weight: 500;
+    color: #000;
+    margin-right: 197px;
+
+    width: 100%;
+}
+
+.work__fitout {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #000;
+    opacity: 80%;
+    margin-top: 27px;
+}
+
+.work__project {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    width: 488px;
+    height: 150px;
+}
 
 
 //end works
-
