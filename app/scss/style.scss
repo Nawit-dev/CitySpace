@@ -185,7 +185,7 @@ li {
 }
 
 .container {
-    max-width: 1167px;
+    max-width: 1216px;
     margin: 0 auto;
 }
 
@@ -251,6 +251,7 @@ li {
 
 .work__info {
     display: flex;
+    justify-content: space-evenly;
     flex-wrap: nowrap;
     margin-top: 187px;
 }
@@ -261,7 +262,7 @@ li {
     line-height: 99px;
     font-weight: 500;
     color: #000;
-    margin-right: 197px;
+   margin-right: 197px;
 
     width: 100%;
 }
@@ -281,8 +282,7 @@ li {
     font-size: 20px;
     line-height: 30px;
     font-weight: 400;
-    width: 488px;
-    height: 150px;
+    width: 548px;
 }
 
 
