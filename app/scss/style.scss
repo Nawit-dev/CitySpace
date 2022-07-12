@@ -184,7 +184,7 @@ li {
     margin-bottom: 90px;
 }
 
-.container {
+.pre__container {
     max-width: 1216px;
     margin: 0 auto;
 }
@@ -206,9 +206,6 @@ li {
 
 }
 
-.work__text {
-    display: flex;
-}
 
 .work__number {
     font-family: 'Inter', sans-serif;
@@ -249,11 +246,24 @@ li {
     color: Grey;
 }
 
+//end works
+//start work
+
+
+
 .work__info {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: nowrap;
+
     margin-top: 187px;
+}
+
+.container {
+    max-width: 1216px;
+
+}
+
+.work__inner {
+    display: flex;
+    justify-content: space-between;
 }
 
 .work__size {
@@ -262,8 +272,8 @@ li {
     line-height: 99px;
     font-weight: 500;
     color: #000;
-   margin-right: 197px;
-
+    margin-right: 197px;
+    margin-left: -18px;
     width: 100%;
 }
 
@@ -286,4 +296,163 @@ li {
 }
 
 
-//end works
+//end work
+
+//start fitout
+.fitout {
+    margin-top: 120px;
+    
+}
+
+.fitout__item {
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.fitout__title {
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    line-height: 52px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 16px;
+
+}
+
+.fitout__size {
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 400;
+    color: #000;
+    margin-right: 20px;
+}
+
+.fitout__size-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #000;
+    max-width: 148px;
+}
+
+.fitout__text {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #000;
+    max-width: 606px;
+    
+}
+
+.fitout__images img{
+    width: 560px;
+    height: 312px;
+    
+}
+.fitout__inner-item{
+    margin-right: 64px;
+}
+.fitout__inner{
+   display: flex;
+   justify-content: space-between;
+   
+}
+//end fitout
+
+//start project
+.project{
+    margin-top:60px;
+}
+.project__item {
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.project__title {
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    line-height: 52px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 16px;
+
+}
+
+.project__size {
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 400;
+    color: #000;
+    margin-right: 20px;
+}
+
+.project__size-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #000;
+    max-width: 148px;
+}
+
+.project__text {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #000;
+    max-width: 606px;
+    
+}
+
+.project__images img{
+    width: 560px;
+    height: 312px;
+    
+}
+.project__inner-item{
+    margin-left: 64px;
+}
+.project__inner{
+   display: flex;
+   justify-content: space-between;
+   
+}
+
+//end project
+
+//start about
+.about{
+    margin-top: 180px;
+}
+.about__inner{
+    display: flex;
+    
+}
+.about__item{
+   
+}
+.about__title{
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    line-height: 52px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 40px;
+}
+.about__text{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #000; 
+}
+.about__images img{
+    width: 508px;
+    height: 456px;
+}
+//end about
